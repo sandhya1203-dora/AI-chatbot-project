@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "python_intro",
+      "patterns": ["What is Python?", "Tell me about Python", "Explain Python"],
+      "responses": ["Python is a high-level, interpreted programming language known for its simplicity and readability."]
+    },
+    {
+      "tag": "python_features",
+      "patterns": ["What are features of Python?", "Python features", "Why use Python?"],
+      "responses": ["Python has easy syntax, dynamic typing, and a large standard library. It's great for web, data, AI, and scripting."]
+    },
+    {
+      "tag": "data_types",
+      "patterns": ["What are data types in Python?", "List Python data types", "Types in Python"],
+      "responses": ["Common data types in Python include int, float, str, list, tuple, dict, set, and bool."]
+    },
+    {
+      "tag": "lists",
+      "patterns": ["What is a list in Python?", "Explain list", "List in Python"],
+      "responses": ["A list is a mutable, ordered collection of elements. It is defined using square brackets []."]
+    },
+    {
+      "tag": "tuple",
+      "patterns": ["What is a tuple?", "Explain tuple", "Tuple in Python"],
+      "responses": ["A tuple is like a list, but it is immutable. Defined using parentheses ()."]
+    },
+    {
+      "tag": "dictionary",
+      "patterns": ["What is a dictionary in Python?", "Explain dictionary", "Dictionary meaning"],
+      "responses": ["A dictionary is an unordered collection of key-value pairs defined using {}."]
+    },
+    {
+      "tag": "function",
+      "patterns": ["How to define a function in Python?", "Function syntax", "Python function"],
+      "responses": ["Use the `def` keyword followed by the function name and parentheses. Example: def my_function(): ..."]
+    },
+    {
+      "tag": "looping",
+      "patterns": ["What are loops in Python?", "Explain for loop", "Explain while loop"],
+      "responses": ["Python supports `for` and `while` loops for iteration."]
+    },
+    {
+      "tag": "ifelse",
+      "patterns": ["Explain if else", "What is if statement?", "Python if-else"],
+      "responses": ["Python uses if, elif, and else for conditional execution."]
+    },
+    {
+      "tag": "class",
+      "patterns": ["What is a class in Python?", "Explain class", "Python OOP"],
+      "responses": ["A class is a blueprint for creating objects. Use the `class` keyword."]
+    },
+    {
+      "tag": "exception",
+      "patterns": ["How to handle exceptions?", "Python exception handling", "try except usage"],
+      "responses": ["Use `try`, `except`, and optionally `finally` blocks to handle exceptions."]
+    },
+    {
+      "tag": "lambda",
+      "patterns": ["What is lambda in Python?", "Explain lambda function", "Anonymous function"],
+      "responses": ["A lambda is an anonymous function defined using the lambda keyword. Example: lambda x: x + 1"]
+    },
+    {
+      "tag": "list_comprehension",
+      "patterns": ["What is list comprehension?", "Explain list comprehension", "List comprehension syntax"],
+      "responses": ["List comprehension is a concise way to create lists. Example: [x for x in range(5)]"]
+    },
+    {
+      "tag": "decorator",
+      "patterns": ["What is a decorator in Python?", "Explain decorators", "Python decorators"],
+      "responses": ["A decorator modifies the behavior of a function without changing its code. Use @decorator_name."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "Exit", "Quit"],
+      "responses": ["Goodbye! Feel free to come back with more Python questions.", "See you later!"]
+    }
+  ]
+}
